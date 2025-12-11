@@ -1,0 +1,4 @@
+pamdas 
+numpy
+seaborn
+-e .
