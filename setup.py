@@ -8,11 +8,12 @@ def get_requirements(file_path:str)->List[str]:
         requirements=fileojb.readlines() 
         requirements=[req.replace('\n',"") for req in requirements]
 
-        if '-e .' in requirements:
+        if '-e .' in requirements:# this is in the requirements.txt to automatically track the packages
             requirements.remove('-e .')
-    return requirements
+    return requirements ## a list would be returned containing all the packages required
 
-setup(
+setup(### this function usese the setup tool to describe your project as a python package
+    # META DATA KIND OF THING
     name='mlproject',
     version='0.0.1',
     author='Sarwagya Shah',
