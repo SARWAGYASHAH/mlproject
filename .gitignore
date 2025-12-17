@@ -14,3 +14,21 @@ __pycache__/
 .ipynb_checkpoints/
 .idea/
 .vscode/
+# ML training artifacts
+catboost_info/
+**/catboost_info/
+
+# TensorBoard logs
+*.tfevents
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+# ML training artifacts
+catboost_info/
+**/catboost_info/
+
+# TensorBoard logs
+*.tfevents
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
