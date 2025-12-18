@@ -32,3 +32,4 @@ catboost_info/
 
 # Jupyter checkpoints
 .ipynb_checkpoints/
+.artifacts

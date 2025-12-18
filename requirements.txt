@@ -1,4 +1,5 @@
 pamdas 
 numpy
 seaborn
--e .
+scikit-learn
+#-e .
