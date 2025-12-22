@@ -1,0 +1,11 @@
+[2025-12-23 01:48:09,025] 23 root - INFO - Entered the Data Ingestion method
+[2025-12-23 01:48:09,046] 26 root - INFO - Exported or read the dataset as dataframe
+[2025-12-23 01:48:09,051] 32 root - INFO - Train Test Split Initaited
+[2025-12-23 01:48:09,054] 37 root - INFO - Ingestion of Data completed
+[2025-12-23 01:48:09,092] 75 root - INFO - Read train and test Data completed
+[2025-12-23 01:48:09,092] 76 root - INFO - Obtaining preprocessor object
+[2025-12-23 01:48:09,092] 55 root - INFO - categorical column encoding completed
+[2025-12-23 01:48:09,092] 56 root - INFO - numerical column STandarized completed
+[2025-12-23 01:48:09,095] 89 root - INFO - applying preprocessing object on training dataframe and testing dataframe.
+[2025-12-23 01:48:09,105] 104 root - INFO - saved prepossing objects
+[2025-12-23 01:48:09,107] 33 root - INFO - Splitting training and test data
