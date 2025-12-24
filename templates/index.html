@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Exam Performance Indicator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #0f1117;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            text-align: center;
+            max-width: 600px;
+        }
+
+        h1 {
+            color: #10a37f;
+            margin-bottom: 20px;
+        }
+
+        p {
+            color: #b0b6c3;
+            margin-bottom: 30px;
+            line-height: 1.6;
+        }
+
+        .start-btn {
+            display: inline-block;
+            padding: 15px 30px;
+            background: #10a37f;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+        }
+
+        .start-btn:hover {
+            background: #0d8c6d;
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Student Exam Performance Indicator</h1>
+        <p>Welcome to the AI-powered prediction system for forecasting student math scores based on multiple factors
+            including demographic information, parental education, and previous test scores.</p>
+        <a href="{{ url_for('predict_datapoints') }}" class="start-btn">Start Prediction</a>
+    </div>
+</body>
+
+</html>

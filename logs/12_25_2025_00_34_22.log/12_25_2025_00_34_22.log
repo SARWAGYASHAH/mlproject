@@ -1,0 +1,4 @@
+[2025-12-25 00:34:22,624] 97 werkzeug - WARNING -  * Debugger is active!
+[2025-12-25 00:34:22,626] 97 werkzeug - INFO -  * Debugger PIN: 607-926-753
+[2025-12-25 00:35:40,755] 97 werkzeug - INFO - 127.0.0.1 - - [25/Dec/2025 00:35:40] "GET / HTTP/1.1" 200 -
+[2025-12-25 00:35:44,301] 97 werkzeug - INFO - 127.0.0.1 - - [25/Dec/2025 00:35:44] "GET /predict HTTP/1.1" 200 -

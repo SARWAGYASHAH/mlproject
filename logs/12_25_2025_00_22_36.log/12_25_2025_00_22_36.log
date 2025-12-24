@@ -1,0 +1,8 @@
+[2025-12-25 00:22:36,650] 97 werkzeug - WARNING -  * Debugger is active!
+[2025-12-25 00:22:36,653] 97 werkzeug - INFO -  * Debugger PIN: 607-926-753
+[2025-12-25 00:22:59,030] 97 werkzeug - INFO - 127.0.0.1 - - [25/Dec/2025 00:22:59] "[35m[1mGET /predictdata HTTP/1.1[0m" 500 -
+[2025-12-25 00:22:59,046] 97 werkzeug - INFO - 127.0.0.1 - - [25/Dec/2025 00:22:59] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2025-12-25 00:22:59,046] 97 werkzeug - INFO - 127.0.0.1 - - [25/Dec/2025 00:22:59] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2025-12-25 00:22:59,068] 97 werkzeug - INFO - 127.0.0.1 - - [25/Dec/2025 00:22:59] "GET /predictdata?__debugger__=yes&cmd=resource&f=console.png&s=B7qACErVDHblMW6UAlmR HTTP/1.1" 200 -
+[2025-12-25 00:22:59,077] 97 werkzeug - INFO - 127.0.0.1 - - [25/Dec/2025 00:22:59] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2025-12-25 00:24:17,771] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\ASUS\\Desktop\\Personal_Project\\inside\\mlproject\\app.py', reloading

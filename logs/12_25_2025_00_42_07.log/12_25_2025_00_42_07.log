@@ -1,0 +1,6 @@
+[2025-12-25 00:42:07,244] 97 werkzeug - WARNING -  * Debugger is active!
+[2025-12-25 00:42:07,247] 97 werkzeug - INFO -  * Debugger PIN: 607-926-753
+[2025-12-25 00:42:14,083] 97 werkzeug - INFO - 127.0.0.1 - - [25/Dec/2025 00:42:14] "GET / HTTP/1.1" 200 -
+[2025-12-25 00:42:16,044] 97 werkzeug - INFO - 127.0.0.1 - - [25/Dec/2025 00:42:16] "GET /predict HTTP/1.1" 200 -
+[2025-12-25 00:42:35,320] 97 werkzeug - INFO - 127.0.0.1 - - [25/Dec/2025 00:42:35] "POST /predict HTTP/1.1" 200 -
+[2025-12-25 00:44:34,407] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\ASUS\\Desktop\\Personal_Project\\inside\\mlproject\\src\\pipeline\\predict_pipeline.py', reloading
