@@ -1,0 +1,28 @@
+[2025-12-24 22:32:18,265] 23 root - INFO - Entered the Data Ingestion method
+[2025-12-24 22:32:18,284] 26 root - INFO - Exported or read the dataset as dataframe
+[2025-12-24 22:32:18,292] 32 root - INFO - Train Test Split Initaited
+[2025-12-24 22:32:18,300] 37 root - INFO - Ingestion of Data completed
+[2025-12-24 22:32:18,340] 75 root - INFO - Read train and test Data completed
+[2025-12-24 22:32:18,341] 76 root - INFO - Obtaining preprocessor object
+[2025-12-24 22:32:18,341] 55 root - INFO - categorical column encoding completed
+[2025-12-24 22:32:18,341] 56 root - INFO - numerical column STandarized completed
+[2025-12-24 22:32:18,345] 90 root - INFO - applying preprocessing object on training dataframe and testing dataframe.
+[2025-12-24 22:32:18,367] 105 root - INFO - saved prepossing objects
+[2025-12-24 22:32:18,370] 33 root - INFO - Splitting training and test data
+[2025-12-24 22:32:18,370] 27 root - INFO - Training model: Random Forest
+[2025-12-24 22:32:23,867] 49 root - INFO - Random Forest R2 score: 0.8532589665328381
+[2025-12-24 22:32:23,867] 27 root - INFO - Training model: Decision Tree
+[2025-12-24 22:32:24,301] 49 root - INFO - Decision Tree R2 score: 0.7622241290318339
+[2025-12-24 22:32:24,301] 27 root - INFO - Training model: Gradient Boosting
+[2025-12-24 22:32:28,064] 49 root - INFO - Gradient Boosting R2 score: 0.8710293174554861
+[2025-12-24 22:32:28,064] 27 root - INFO - Training model: Linear Regression
+[2025-12-24 22:32:28,099] 49 root - INFO - Linear Regression R2 score: 0.8800085183585904
+[2025-12-24 22:32:28,099] 27 root - INFO - Training model: KNN
+[2025-12-24 22:32:28,329] 49 root - INFO - KNN R2 score: 0.47561174068704326
+[2025-12-24 22:32:28,329] 27 root - INFO - Training model: XGBoost
+[2025-12-24 22:32:28,821] 49 root - INFO - XGBoost R2 score: 0.8229608172972795
+[2025-12-24 22:32:28,821] 27 root - INFO - Training model: CatBoost
+[2025-12-24 22:32:32,066] 49 root - INFO - CatBoost R2 score: 0.8523560006768236
+[2025-12-24 22:32:32,066] 27 root - INFO - Training model: AdaBoost
+[2025-12-24 22:32:32,272] 49 root - INFO - AdaBoost R2 score: 0.8451071532871323
+[2025-12-24 22:32:32,273] 109 root - INFO - Best model found: Linear Regression
